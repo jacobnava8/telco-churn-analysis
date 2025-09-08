@@ -8,9 +8,13 @@ Machine learning models including **Logistic Regression** and **Decision Trees**
 
 ## 📂 Project Structure
 📂 telco-churn-analysis
+
 ├── analysis.ipynb # Jupyter Notebook with full EDA + modeling
+
 ├── report.pdf # Final written analysis and recommendations
+
 ├── requirements.txt # Python dependencies
+
 └── README.md
 
 ---
@@ -37,9 +41,8 @@ jupyter notebook analysis.ipynb
 
 ## 🛠️ Tech Stack
 Python: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-  ```
+
 Jupyter Notebook
-  ```
 
 Machine Learning: Logistic Regression, Decision Trees, Cross-Validation
 
