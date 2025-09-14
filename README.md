@@ -1,8 +1,9 @@
 # 📈 Telco Customer Churn Analysis
 
 ## 📌 Overview
-This project analyzes a **telecom customer dataset (7,000+ records)** to predict churn and identify drivers of customer retention.  
-Machine learning models including **Logistic Regression** and **Decision Trees** were applied to forecast churn, with business-focused threshold tuning to balance false positives and false negatives.
+This project analyzes a **telecom customer dataset (7,043 records)** to predict churn and uncover the drivers of customer retention.  
+Using **Logistic Regression** and **Decision Trees**, we evaluated customer attributes like contract type, tenure, internet service, and charges.  
+The analysis provided both **predictive accuracy (80%)** and **business insights** to reduce churn through targeted interventions.  
 
 ---
 
@@ -16,6 +17,17 @@ Machine learning models including **Logistic Regression** and **Decision Trees**
 ├── requirements.txt # Python dependencies
 
 └── README.md
+
+---
+---
+
+## 🛠️ Tasks Performed
+- Cleaned and prepared telecom dataset (**7,043 customer records**)  
+- Created **correlation heatmaps** to identify strongest churn predictors  
+- Conducted exploratory visualizations: pie charts, bar charts for contract types & churn rates  
+- Trained and evaluated:
+  - **Logistic Regression** with tuned thresholds (accuracy 80%, recall 70%, precision 60%)  
+  - **Decision Tree model** identifying tenure, contract type, fiber optic service, and charges as key churn drivers  
 
 ---
 
@@ -49,12 +61,13 @@ Machine Learning: Logistic Regression, Decision Trees, Cross-Validation
 Visualization: Correlation heatmaps, bar charts, pie charts
 
 ## 📊 Results
-Achieved ~79% model accuracy
-Final Report
 
+- Achieved **80% accuracy**, **70% recall**, and **60% precision** at threshold = 0.4  
+- Found **contract type** as the strongest predictor of churn (**88.6% of churners** had month-to-month contracts)  
+- Identified **tenure** (shorter = higher churn), **fiber optic customers**, and **monthly charges** as major churn factors  
 
-Identified Month-to-Month contracts as the biggest churn driver (88% of churners)
-
-Cost-sensitive threshold tuning reduced overall business loss by prioritizing high-risk churners
-
-Recommended loyalty programs and contract incentives for retention
+### 💡 Business Recommendations
+- Promote **1–2 year contracts** with incentives to stabilize customer base  
+- Investigate **pricing/quality issues** for fiber optic service  
+- Launch **loyalty programs** to reward renewals and long-term customers  
+- Target **high-risk customers** flagged by the model for retention campaigns  
