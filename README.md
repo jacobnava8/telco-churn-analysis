@@ -14,6 +14,8 @@ The analysis provided both **predictive accuracy (80%)** and **business insights
 
 ├── report.pdf # Final written analysis and recommendations
 
+├── powerpoint.ppt # Final written analysis and recommendations
+
 ├── requirements.txt # Python dependencies
 
 └── README.md
