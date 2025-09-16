@@ -14,7 +14,7 @@ The analysis provided both **predictive accuracy (80%)** and **business insights
 
 ├── Final Report.pdf # Final written analysis and recommendations
 
-├── 5339.ppt # Final written analysis and recommendations
+├── 5339 Project-telco.ppt # Final written analysis and recommendations
 
 ├── requirements.txt # Python dependencies
 
