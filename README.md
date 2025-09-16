@@ -37,8 +37,7 @@ git clone https://github.com/JacobNava/telco-churn-analysis
 cd telco-churn-analysis
 pip install -r requirements.txt
 jupyter notebook "5339Project.ipynb"
-
-
+```
 🧰 Tech Stack
 
 Python: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
