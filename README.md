@@ -38,7 +38,9 @@ cd telco-churn-analysis
 pip install -r requirements.txt
 jupyter notebook "5339Project.ipynb"
 
-## 🛠️ Tech Stack
+
+🧰 Tech Stack
+
 Python: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
 Jupyter Notebook
@@ -47,14 +49,20 @@ Machine Learning: Logistic Regression, Decision Trees, Cross-Validation
 
 Visualization: Correlation heatmaps, bar charts, pie charts
 
-## 📊 Results
+📊 Results
 
-- Achieved **80% accuracy**, **70% recall**, and **60% precision** at threshold = 0.4  
-- Found **contract type** as the strongest predictor of churn (**88.6% of churners** had month-to-month contracts)  
-- Identified **tenure** (shorter = higher churn), **fiber optic customers**, and **monthly charges** as major churn factors  
+Achieved 80% accuracy, 70% recall, and 60% precision at threshold = 0.4
 
-### 💡 Business Recommendations
-- Promote **1–2 year contracts** with incentives to stabilize customer base  
-- Investigate **pricing/quality issues** for fiber optic service  
-- Launch **loyalty programs** to reward renewals and long-term customers  
-- Target **high-risk customers** flagged by the model for retention campaigns  
+Found contract type as the strongest predictor of churn (88.6% of churners had month-to-month)
+
+Identified tenure (shorter = higher churn), fiber optic customers, and monthly charges as churn drivers
+
+💡 Business Recommendations
+
+Promote 1–2 year contracts with incentives to stabilize customer base
+
+Investigate pricing/quality issues for fiber optic service
+
+Launch loyalty programs to reward renewals and long-term customers
+
+Target high-risk customers flagged by the model for retention campaigns
