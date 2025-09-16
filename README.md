@@ -46,15 +46,17 @@ Jupyter Notebook
 
 Machine Learning: Logistic Regression, Decision Trees, Cross-Validation
 
-Visualization: Correlation heatmaps, bar charts, pie charts
+Visualization: Correlation heatmaps, bar charts, pie charts, decision tree
 
 📊 Results
 
 Achieved 80% accuracy, 70% recall, and 60% precision at threshold = 0.4
 
-Found contract type as the strongest predictor of churn (88.6% of churners had month-to-month)
+Found contract type as the strongest predictor of churn (88.6% of churners had month-to-month contracts)
 
 Identified tenure (shorter = higher churn), fiber optic customers, and monthly charges as churn drivers
+
+Cost-sensitive analysis (FP ≈ $50 vs. FN ≈ $500) showed threshold 0.3 was more cost-effective, since it reduced expensive false negatives (missed churners), even at the cost of more false positives.
 
 💡 Business Recommendations
 
@@ -65,3 +67,7 @@ Investigate pricing/quality issues for fiber optic service
 Launch loyalty programs to reward renewals and long-term customers
 
 Target high-risk customers flagged by the model for retention campaigns
+
+📎 Dataset
+
+Source: Kaggle – Telco Customer Churn Dataset
