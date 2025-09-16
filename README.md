@@ -12,9 +12,9 @@ The analysis provided both **predictive accuracy (80%)** and **business insights
 
 ├── 5339Project.ipynb # Jupyter Notebook with full EDA + modeling
 
-├── report.pdf # Final written analysis and recommendations
+├── Final Report.pdf # Final written analysis and recommendations
 
-├── powerpoint.ppt # Final written analysis and recommendations
+├── 5339.ppt # Final written analysis and recommendations
 
 ├── requirements.txt # Python dependencies
 
