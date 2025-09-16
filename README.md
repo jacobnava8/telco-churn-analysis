@@ -32,24 +32,11 @@ The analysis provided both **predictive accuracy (80%)** and **business insights
 ---
 
 ## 🚀 How to Run
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/JacobNava/telco-churn-analysis
-   cd telco-churn-analysis
-     ```
-2. Install dependencies:
-
-  ```bash
-
+```bash
+git clone https://github.com/JacobNava/telco-churn-analysis
+cd telco-churn-analysis
 pip install -r requirements.txt
-  ```
-
-3. Open the notebook:
-
-  ```bash
-
-jupyter notebook analysis.ipynb
-  ```
+jupyter notebook "5339Project.ipynb"
 
 ## 🛠️ Tech Stack
 Python: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
