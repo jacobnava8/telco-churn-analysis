@@ -70,4 +70,4 @@ Target high-risk customers flagged by the model for retention campaigns
 
 📎 Dataset
 
-Source: Kaggle – Telco Customer Churn Dataset
+Source: Kaggle – Telco Customer Churn Dataset https://www.kaggle.com/datasets/blastchar/telco-customer-churn
