@@ -10,7 +10,7 @@ The analysis provided both **predictive accuracy (80%)** and **business insights
 ## 📂 Project Structure
 📂 telco-churn-analysis
 
-├── analysis.ipynb # Jupyter Notebook with full EDA + modeling
+├── 5339Project.ipynb # Jupyter Notebook with full EDA + modeling
 
 ├── report.pdf # Final written analysis and recommendations
 
